@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/mediaqueries.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+	<title>Acerca de mi</title>
+	<link rel="shortcut icon" href="img/shortcut.png" type="image/png" sizes="16x16">
+</head>
+<body>
+	<header>
+		<!-- Navbar -->
+		<nav class="navbar pt-2 pb-2 pl-0 pr-0">
+			<div class="nav pt-2">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<i class="navbar-toggler-icon text-light material-icons lead">menu</i>
+				</button>
+				<a href="index.html" class="mx-auto"><h4 class="text-white">Patricio Barrero</h4></a>
+				<!-- Para cambiar a versión en Inglés -->
+				<a href="aboutme.html" class="englishsm" title="English version"><p><i class="material-icons pr-1">language</i>EN</p></a>
+			</div>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav pt-3 pb-md-5 pb-4">
+					<!-- Foto -->
+					<div class="circle mx-auto mb-2">
+						<img class="circle" src="img/PatricioBarrero.jpg" alt="Patricio Barrero">
+					</div>
+					<div class="container mt-2 pl-4 pr-4">
+						<p class="text-center text-white">Estudiante de Ciencia de Datos e Ingeniería en Computación. </p>
+					</div>
+					<!-- Redes sociales -->
+					<div class="icons iconsnavmd mt-0 mx-auto">
+						<a href="mailto:patriciobarrero@gmail.com" title="E-mail" target="_blank"><i class="material-icons">email</i></a>
+						<a href="https://www.linkedin.com/in/patricio-barrero-770619199/" title="Linkedin" target="_blank"><img src="img/linkedin.png" alt="Linkedin"></a>
+						<a href="https://github.com/patoba" title="Github" target="_blank"><img src="img/git.png" alt="Github"></a>
+						<a href="https://t.me/patoba" title="Telegram" target="_blank"><img src="img/telegram.png" alt=""></a>
+						<!-- Link para descargar CV -->
+						<!-- <a href="CV_PatricioBarrero.pdf" title="Descargar CV" target="_blank"><i class="material-icons">download</i></a>-->		
+						<!-- <a href="" title="Kaggle" target="_blank"><img src="img/kaggle.png" alt="Kaggle"></a> -->
+					</div>
+					<div class="navline mt-3 mx-auto"></div>
+					<!-- Menú -->
+					<div class="menu ml-5 mt-0 mr-5">
+						<a href="index.html" class="pt-4 pb-3 active"><i class="material-icons mr-2 lead ">person</i>Acerca de mi</a>
+						<a href="trayectoria.html" class="pt-4 pb-3"><i class="material-icons mr-2 lead">flight_takeoff</i>Trayectoria</a>
+						<a href="portafolio.html" class="pt-4 pb-3"><i class="material-icons mr-2 lead">integration_instructions</i>Portafolio</a>
+						<!-- <a href="contacto.html" class="pt-4"><i class="material-icons mr-2 lead">perm_phone_msg</i>Contacto</a> -->
+						<!-- <a href="">
+							<button type="button"  id="contratame" class="btn btn-dark mt-4 text-center"><i class="material-icons mr-1">send</i>Contrátame</button>
+						</a> -->
+					</div>
+				</ul>
+			</div>
+		</nav>
+		<!-- Sidebar -->
+		<div class="d-flex sidenav">
+			<div id="sidebar-container" class="bg-primary pt-3">
+				<div class="name">
+					<a href="index.html"><h3 class="text-center text-white">Patricio Barrero</h3></a>
+				</div>
+				<!-- Foto -->
+				<div class="circle mx-auto">
+					<img class="circle" src="img/PatricioBarrero.jpg" alt="Patricio Barrero">
+				</div>
+				<div class="container mt-3 mb-4">
+					<p class="text-center text-white">Estudiante de ciencia de datos e ingeniería en computación.</p>
+				</div>
+				<!-- Redes sociales -->
+				<div class="icons mt-0 mx-auto">
+					<a target="_blank" href="mailto:patriciobarrero@gmail.com" title="E-mail"><i class="material-icons">email</i></a>
+					<a href="https://www.linkedin.com/in/patricio-barrero-770619199/" title="Linkedin" target="_blank"><img src="img/linkedin.png" alt="Linkedin"></a>
+					<a href="https://github.com/patoba" title="Github" target="_blank"><img src="img/git.png" alt="Github"></a>
+					<a href="https://t.me/patoba" title="Telegram" target="_blank"><img src="img/telegram.png" alt=""></a>
+					<!-- Descargar CV -->
+					<!-- <a href="CV_PatricioBarrero.pdf" title="Descargar CV" target="_blank"><i class="material-icons">download</i></a> -->
+					<!-- <a href="" title="Kaggle" target="_blank"><img src="img/kaggle.png" alt="Kaggle"></a> -->
+				</div>
+				<div class="line mt-3 mx-auto"></div>
+				<div class="menu ml-lg-5  mt-0">
+					<a href="index.html" class="p-lg-3  mt-3   active"><i class="material-icons mr-2 lead">person</i>Acerca de mi</a>
+					<a href="trayectoria.html" class="p-lg-3 mt-2"><i class="material-icons mr-2 lead">flight_takeoff</i>Trayectoria</a>
+					<a href="portafolio.html" class="p-lg-3  mt-2"><i class="material-icons mr-2 lead">integration_instructions</i>Portafolio</a>
+					<!-- <a href="contacto.html" class="p-lg-3  mt-2"><i class="material-icons mr-2 lead">perm_phone_msg</i>Contacto</a> -->
+					<a href="aboutme.html" class="p-lg-3  mt-2 mb-2"><i class="material-icons mr-2">language</i>English version</a>
+					<!-- <a href="">
+						<button type="button" class="contratame-sidebar btn btn-dark mt-2 mt-lg-4 ml-3"><i class="material-icons mr-1">send</i>Contrátame</button>
+					</a> -->
+				</div>
+			</div>
+		</div>
+	</header>
+	<main >
+		<!-- Parte gris -->
+		<section class="container-fluid about pb-4 pl-xl-5">
+			<a href="aboutme.html" class="english"><p><i class="material-icons pr-1">language</i>EN</p></a>
+			<h1 class="font-weight-bold pt-4">Adolfo Patricio Barrero Olguin</h1>
+			<!-- Texto principal -->
+			<h2>Ingeniería en computación</h2>
+			<div class="row">
+				<div class="col-12 col-md-7">
+					<p class="pt-3 text-dark">Estudiante de <span>Ciencia de Datos</span> e <span>Ingeniería en Computación</span> apasionado por la <span>Inteligencia Artificial</span>, la programación y el conocimiento. Me encantan los nuevos retos, y el trabajo en equipo. </p>
+					<!-- Botones -->
+					<div class="buttons">
+						<!-- <a href="">
+							<button type="button" class="btn btn-green mt-3 contratame-sidebar"><i class="material-icons mr-1">send</i>Contrátame</button>
+						</a> -->
+						<!-- Descargar CV -->
+						<!-- <a href="CV_PatricioBarrero.pdf">
+							<button type="button" class="btn mt-3 btn-dark-grey"><i class="material-icons mr-2">get_app</i>Descargar CV</button>
+						</a> -->
+					</div>
+				</div>
+				<!-- Info -->
+				<div class="col-12 col-md-5 hide-sm">
+					<div class="info pl-4 pt-2 pb-2">
+						<a class="pb-3"><i class="material-icons mr-2 lead">room</i>CDMX</a>
+						<a href="mailto:patobarrero@gmail.com" class=" pb-3"><i class="material-icons mr-2 lead">email</i>patobarrero@gmail.com</a>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Info para mobile -->
+			<div class="info mt-4 hide-lg pt-2 pb-2">
+				<a class="pb-2"><i class="material-icons mr-2 lead">calendar_today</i>23 años</a>
+				<a  class="pb-2"><i class="material-icons mr-2 lead">room</i>CDMX</a>
+				<a href="" class=" pb-2"><i class="material-icons mr-2 lead">email</i>patobarrero@gmail.com</a>
+			</div>
+		</section>
+		<!-- Habilidades -->
+		<section class="skills container-fluid mt-1 mt-md-3 mb-0">
+			<!-- Lenguajes -->
+			<h2 class="font-weight-bold mb-2 mb-lg-4 hrecta">Lenguajes</h2>
+			<div class="lenguajes row ml-2 mt-4">
+				<!-- Grupo 1 -->
+				<div class="row-blocks aux mb-md-4 col-12 col-sm-6 col-xl-4">
+					<div class="row mb-1">
+						<div class="col-3  col-lg-4">
+							<h4>Python</h4>
+						</div>
+						<div class="col-9  col-lg-8 blocks pl-4">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+					<div class="row mb-1">
+						<div class="col-3  col-lg-4">
+							<h4>Java</h4>
+						</div>
+						<div class="col-9  col-lg-8 blocks pl-4">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							<span class="blockn"></span>
+						</div>
+					</div>
+					<div class="row mb-1">
+						<div class="col-3 col-lg-4">
+							<h4>R</h4>
+						</div>
+						<div class="col-9 col-lg-8 blocks pl-4">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							<span class="blockn"></span>
+						</div>
+					</div>
+				</div>
+				<!-- Grupo 2 -->
+				<div class="row-blocks mb-md-4 col-12 col-sm-6 col-xl-4">
+					<div class="row mb-1">
+						<div class="col-3 col-lg-4">
+							<h4>C/C++</h4>
+						</div>
+						<div class="col-9 col-lg-8 blocks pl-4">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							<span class="blockn"></span>
+						</div>
+					</div>
+					<div class="row mb-2">
+						<div class="col-3 col-lg-4">
+							<h4>Julia</h4>
+						</div>
+						<div class="col-9 col-lg-8 blocks pl-4">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span class="blockn"></span>
+							<span class="blockn"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Herramientas -->
+			<h2 class="font-weight-bold mb-2 mb-lg-4 hrecta mt-4 mt-sm-2">Herramientas</h2>
+			<div class="herramientas row ml-1 mt-2">
+				<!-- Ciencias de datos -->
+				<div class="row-blocks mb-3 mb-md-4 col-sm-6 col-xl-4">
+					<h3 class=" pt-2 pt-lg-0 pb-2 pb-xl-3 pb-lg-1">Ciencias de datos</h3>
+					<div class="row mb-1">
+						<div class="col-4 col-lg-4">
+							<h4>Numpy</h4>
+						</div>
+						<div class="col-8 col-lg-8 blocks pl-4">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+					<div class="row mb-1">
+						<div class="col-4 col-lg-4">
+							<h4>Pandas</h4>
+						</div>
+						<div class="col-8 col-lg-8 blocks pl-4">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							<span class="blockn"></span>
+						</div>
+					</div>
+					<div class="row mb-1">
+						<div class="col-4 col-lg-4">
+							<h4>Matplotlib</h4>
+						</div>
+						<div class="col-8 col-lg-8 blocks pl-4">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							<span class="blockn"></span>
+						</div>
+					</div>
+					<div class="row mb-1">
+						<div class="col-4 col-lg-4">
+							<h4>Sklearn</h4>
+						</div>
+						<div class="col-8 col-lg-8 blocks pl-4">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							<span class="blockn"></span>
+						</div>
+					</div>
+					<div class="row mb-1">
+						<div class="col-4 col-lg-4">
+							<h4>Pythorch</h4>
+						</div>
+						<div class="col-8 col-lg-8 blocks pl-4">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							<span class="blockn"></span>
+						</div>
+					</div>
+					<div class="row mb-1">
+						<div class="col-4 col-lg-4">
+							<h4>Keras</h4>
+						</div>
+						<div class="col-8 col-lg-8 blocks pl-4">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span class="blockn"></span>
+							<span class="blockn"></span>
+						</div>
+					</div>
+				</div>
+				<!-- Databases -->
+				<div class="row-blocks mb-3 mb-md-4 col-sm-6 col-xl-4">
+					<h3 class="pb-xl-3 pt-2 pt-lg-0 pb-2 pb-lg-1">Databases</h3>
+					<div class="row mb-1">
+						<div class="col-4 col-lg-4">
+							<h4>Oracle</h4>
+						</div>
+						<div class="col-8 col-lg-8 blocks pl-4">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							<span class="blockn"></span>
+						</div>
+					</div>
+					<div class="row mb-1">
+						<div class="col-4 col-lg-4">
+							<h4>Postgres</h4>
+						</div>
+						<div class="col-8 col-lg-8 blocks pl-4">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							<span class="blockn"></span>
+						</div>
+					</div>
+					<div class="row mb-1">
+						<div class="col-4 col-lg-4">
+							<h4>MySQL</h4>
+						</div>
+						<div class="col-8 col-lg-8 blocks pl-4">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span class="blockn"></span>
+							<span class="blockn"></span>
+						</div>
+					</div>
+				</div>
+				<!-- Backend -->
+				<div class="row-blocks mb-3 mb-md-4 col-sm-6 col-xl-4">
+					<h3 class="pb-xl-3 pt-2 pt-lg-0 pb-2 pb-lg-1">Backend</h3>
+					<div class="row mb-1">
+						<div class="col-4">
+							<h4>Django</h4>
+						</div>
+						<div class="col-8 col-lg-8 blocks pl-4">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							<span class="blockn"></span>
+						</div>
+					</div>
+					<div class="row mb-1">
+						<div class="col-4 col-lg-4">
+							<h4>Flask</h4>
+						</div>
+						<div class="col-8 col-lg-8 blocks pl-4">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span class="blockn"></span>
+							<span class="blockn"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Educación -->
+			<!--<div class="container mt-md-3 mb-0 ml-0 pl-0">
+				<h2 class="font-weight-bold mb-4 hrecta mx-auto"><div class="rect mr-3"></div>Educación</h2>
+				<div class="row">
+					<div class="col-xl-6">
+						<ul class="timeline">
+							<li>
+								<div class="timeline-badge"><p class="font-weight-bold">2017 - 2022</p></div>
+								<div class="timeline-panel p-0 ml-0">
+									<div class="timeline-heading">
+										<h4 class="timeline-title">Licenciatura - Ingeniería en Computación</h4>
+									</div>
+									<div class="timeline-body p-3">
+										<p>Facultad de Ingeniería, UNAM</p>
+									</div>
+								</div>
+							</li>
+							<li class="timeline-inverted">
+								<div class="timeline-badge"><p class="font-weight-bold">2020 - 2022</p></div>
+								<div class="timeline-panel p-0">
+									<div class="timeline-heading">
+										<h4 class="timeline-title">Licenciatura - Ciencia de datos</h4>
+									</div>
+									<div class="timeline-body p-3">
+										<p>Instituto de Investigaciones Aplicadas y Sistemas, UNAM</p>
+									</div>
+								</div>
+							</li>
+						</ul> 
+					</div>
+					<div class="col-xl-6 unam pl-5">
+						<img src="img/UNAMprincipal.jpg" alt="">
+					</div>
+				</div>
+			</div> -->
+		
+			<!-- Info personal -->
+			<div class="row">
+				<!-- Idiomas -->
+				<div class="col-12">
+					<h2 class="font-weight-bold mt-3 mb-2 mb-lg-4 hrecta">Idiomas</h2>
+					<div class="intereses pl-2 mt-4 mb-4">
+						<div class="box mr-4 ">
+							<h4 class="font-weight-bold">Español</h4>
+							<p>Nativo</p>
+						</div>
+						<div class="box">
+							<h4 class="font-weight-bold">Inglés</h4>
+							<p>Profesional</p>
+						</div>
+					</div>
+				</div>
+				<!-- Intereses -->
+				<div class="col-12">
+					<h2 class="font-weight-bold mb-2 mb-lg-4 hrecta">Intereses</h2>
+					<div class="intereses pl-2 mt-4 mb-4">
+						<div class="box mr-4 ">
+							<i class="material-icons">code</i>
+							<p>Programar</p>
+						</div>
+						<div class="box  mr-4">
+							<i class="material-icons">menu_book</i>
+							<p>Leer</p>
+						</div>
+						<div class="box">
+							<i class="material-icons">school</i>
+							<p>Enseñar</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</html>

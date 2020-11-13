@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/mediaqueries.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+	<title>Portafolio</title>
+	<link rel="shortcut icon" href="img/shortcut.png" type="image/png" sizes="16x16">
+</head>
+<body>
+	<header>
+		<!-- Navbar -->
+		<nav class="navbar pt-2 pb-2 pl-0 pr-0">
+			<div class="nav pt-2">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<i class="navbar-toggler-icon text-light material-icons lead">menu</i>
+				</button>
+				<h4 class="text-white mx-auto">Patricio Barrero</h4>
+				<!-- Para cambiar a versión en Inglés -->
+				<a href="aboutme.html" class="englishsm" title="English version"><p><i class="material-icons pr-1">language</i>EN</p></a>
+			</div>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav pt-3 pb-md-5 pb-4">
+					<!-- Foto -->
+					<div class="circle mx-auto mb-2">
+						<img class="circle" src="img/PatricioBarrero.jpg" alt="Patricio Barrero">
+					</div>
+					<div class="container mt-2 pl-4 pr-4">
+						<p class="text-center text-white">Estudiante de Ciencia de Datos e Ingeniería en Computación. </p>
+					</div>
+					<!-- Redes sociales -->
+					<div class="icons mt-0 mx-auto">
+						<a href="mailto:patriciobarrero@gmail.com" title="E-mail" target="_blank"><i class="material-icons">email</i></a>
+						<a href="https://www.linkedin.com/in/patricio-barrero-770619199/" title="Linkedin" target="_blank"><img src="img/linkedin.png" alt="Linkedin"></a>
+						<a href="https://github.com/patoba" title="Github" target="_blank"><img src="img/git.png" alt="Github"></a>
+						<a href="https://t.me/patoba" title="Telegram" target="_blank"><img src="img/telegram.png" alt=""></a>
+						<!-- <a href="CV_PatricioBarrero.pdf" title="Descargar CV" target="_blank"><i class="material-icons">download</i></a> -->
+						<!-- <a href="" title="Kaggle" target="_blank"><img src="img/kaggle.png" alt="Kaggle"></a> -->
+					</div>
+					<div class="navline mt-3 mx-auto"></div>
+					<!-- Menú -->
+					<div class="menu ml-5 mt-0 mr-5">
+						<a href="index.html" class="pt-4 pb-3"><i class="material-icons mr-2 lead ">person</i>Acerca de mi</a>
+						<a href="trayectoria.html" class="pt-4 pb-3"><i class="material-icons mr-2 lead">flight_takeoff</i>Trayectoria</a>
+						<a href="portafolio.html" class="pt-4 pb-3 active"><i class="material-icons mr-2 lead">integration_instructions</i>Portafolio</a>
+						<!-- <a href="contacto.html" class="pt-4"><i class="material-icons mr-2 lead">perm_phone_msg</i>Contacto</a> -->
+						<!-- <a href="">
+							<button type="button"  id="contratame" class="btn btn-dark mt-4 text-center"><i class="material-icons mr-1">send</i>Contrátame</button>
+						</a> -->
+					</div>
+				</ul>
+			</div>
+		</nav>
+		<!-- Sidebar -->
+		<div class="d-flex">
+			<div id="sidebar-container" class="bg-primary pt-3">
+				<div class="name">
+					<h3 class="text-center text-white">Patricio Barrero</h3>
+				</div>
+				<!-- Foto -->
+				<div class="circle mx-auto">
+					<img class="circle" src="img/PatricioBarrero.jpg" alt="Patricio Barrero">
+				</div>
+				<div class="container mt-3 mb-4">
+					<p class="text-center text-white">Estudiante de ciencia de datos e ingeniería en computación.</p>
+				</div>
+				<!-- Redes sociales -->
+				<div class="icons mt-0 mx-auto">
+					<a href="mailto:patriciobarrero@gmail.com" title="E-mail" target="_blank"><i class="material-icons">email</i></a>
+					<a href="https://www.linkedin.com/in/patricio-barrero-770619199/" title="Linkedin" target="_blank"><img src="img/linkedin.png" alt="Linkedin"></a>
+					<a href="https://github.com/patoba" title="Github" target="_blank"><img src="img/git.png" alt="Github"></a>
+					<a href="https://t.me/patoba" title="Telegram" target="_blank"><img src="img/telegram.png" alt=""></a>
+					<!-- <a href="CV_PatricioBarrero.pdf" title="Descargar CV" target="_blank"><i class="material-icons">download</i></a> -->
+					<!-- <a href="" title="Kaggle" target="_blank"><img src="img/kaggle.png" alt="Kaggle"></a> -->
+				</div>
+				<div class="line mt-3 mx-auto"></div>
+				<div class="menu ml-lg-5  mt-0">
+					<a href="index.html" class="p-lg-3  mt-3"><i class="material-icons mr-2 lead">person</i>Acerca de mi</a>
+					<a href="trayectoria.html" class="p-lg-3 mt-2"><i class="material-icons mr-2 lead">flight_takeoff</i>Trayectoria</a>
+					<a href="portafolio.html" class="p-lg-3  mt-2 active"><i class="material-icons mr-2 lead">integration_instructions</i>Portafolio</a>
+					<!-- <a href="contacto.html" class="p-lg-3  mt-2"><i class="material-icons mr-2 lead">perm_phone_msg</i>Contacto</a> -->
+					<a href="aboutme.html" class="p-lg-3  mt-2 mb-2"><i class="material-icons mr-2">language</i>English version</a>
+					<!-- <a href="">
+						<button type="button" class="contratame-sidebar btn btn-dark mt-2 mt-lg-4 ml-3"><i class="material-icons mr-1">send</i>Contrátame</button>
+					</a> -->
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<!-- Parte gris -->
+		<section class="container-fluid pb-4 pl-xl-5 pt-4">
+			<a href="aboutme.html" class="english"><p><i class="material-icons pr-1">language</i>EN</p></a>
+		</section>
+		<div class="container  mt-md-3 mb-0 pl-4 pl-sm-2 pl-md-5 pr-5">
+			<h2 class="font-weight-bold mb-2 mb-lg-4 hrecta"><div class="rect mr-3"></div>Portafolio</h2>
+			<div class="tab_container mt-4 pt-3 pt-md-0 mt-md-5">
+				<!-- Tabs -->
+				<input id="tab1" type="radio" name="tabs" checked>
+				<label for="tab1" class="mr-4 mr-md-4"><i class="fa fa-code"></i><p>Tutoriales</p></label>
+				<input id="tab2" type="radio" name="tabs">
+				<label for="tab2"><i class="fa fa-code"></i><p>Desarrollo de Software</p></label>
+				<!-- Si agregas una tab a la etiqueta label de aqui arriba le agregas esto  class="mr-4 mr-md-4" -->
+				<!-- <input id="tab3" type="radio" name="tabs">
+				<label for="tab3"><i class="fa fa-code"></i><p>Desarrollo de Software</p></label> -->
+				<!-- Tutoriales -->
+				<section id="content1" class="tab-content">
+					<!-- Fila 1 -->
+					<div class="row row-cols-1 row-cols-sm-2 row-cols-xl-3">
+						<!-- card 1 -->
+						<div class="col mb-4">
+							<div class="card box9">
+								<img src="img/graphr.jpeg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Curso de R - 2019</h5>
+									<p class="card-text">Tutorial de R que comprende desde los aspectos básicos de la programación, conceptos como variables, ciclos, funciones, operadores hasta distribuciones y graficaciones en el lenguaje R</p>
+									<p class="card-text text-muted">Idioma: Español</p>
+									<p class="card-text text-muted">En colaboración con: e-muf, GockLdk</p>
+								</div>
+								<div class="box-content">
+									<a href="https://github.com/patoba/CursoR">Ver proyecto</a>
+								</div>
+							</div>
+						</div>
+						<!-- card 2 -->
+						<div class="col mb-4">
+							<div class="card box9">
+								<img src="img/data.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Modulos Cientificos - 2019 </h5>
+									<p class="card-text">Tutorial sobre los principales modulos enfocados a ciencia de datos (numpy, pandas, matplotlib).</p>
+									<p class="card-text text-muted">Idioma: Español</p>
+									<p class="card-text text-muted">En colaboración con:  roher1727</p>
+								</div>
+								<div class="box-content">
+									<a href="https://github.com/patoba/Modulos-Cientificos-Python">Ver proyecto</a>
+								</div>
+							</div>
+						</div>
+						<!-- card 3 -->
+						<div class="col mb-4">
+							<div class="card box9">
+								<img src="img/codejava.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Curso de Java - 2018</h5>
+									<p class="card-text">Tutorial donde se explica las bases de la programación orientada a objetos usando java, así como el uso de hilos, colecciones, y manejo de flujos.</p>
+									<p class="card-text text-muted">Idioma: Español</p>
+									<p class="card-text text-muted">En colaboración con: roher1727, GodieSillasca</p>
+								</div>
+								<div class="box-content">
+									<a href="https://github.com/patoba/CursoJava">Ver proyecto</a>
+								</div>
+							</div>
+						</div>
+						<!-- card 4 -->
+						<!-- <div class="col mb-4">
+							<div class="card box9">
+								<img src="img/graphr.jpeg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Curso de R - 2019</h5>
+									<p class="card-text">Tutorial de R que comprende desde los aspectos básicos de la programación, conceptos como variables, ciclos, funciones, operadores hasta distribuciones y graficaciones en el lenguaje R</p>
+									<p class="card-text text-muted">Idioma: Español</p>
+									<p class="card-text text-muted">En colaboración con: e-muf, GockLdk</p>
+								</div>
+								<div class="box-content">
+									<a href="https://github.com/patoba/CursoR">Ver proyecto</a>
+								</div>
+							</div>
+						</div> -->
+						<!-- card 5 -->
+						<!-- <div class="col mb-4">
+							<div class="card box9">
+								<img src="img/data.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Modulos Cientificos - 2019 </h5>
+									<p class="card-text">Tutorial sobre los principales modulos enfocados a ciencia de datos (numpy, pandas, matplotlib).</p>
+									<p class="card-text text-muted">Idioma: Español</p>
+									<p class="card-text text-muted">En colaboración con:  roher1727</p>
+								</div>
+								<div class="box-content">
+									<a href="https://github.com/patoba/Modulos-Cientificos-Python">Ver proyecto</a>
+								</div>
+							</div>
+						</div> -->
+						<!-- card 6 -->
+						<!-- <div class="col mb-4">
+							<div class="card box9">
+								<img src="img/codejava.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Curso de Java - 2018</h5>
+									<p class="card-text">Tutorial donde se explica las bases de la programación orientada a objetos usando java, así como el uso de hilos, colecciones, y manejo de flujos.</p>
+									<p class="card-text text-muted">Idioma: Español</p>
+									<p class="card-text text-muted">En colaboración con: roher1727, GodieSillasca</p>
+								</div>
+								<div class="box-content">
+									<a href="https://github.com/patoba/CursoJava">Ver proyecto</a>
+								</div>
+							</div>
+						</div> -->
+					</div>
+				</section>
+				<!-- Software -->
+				<section id="content2" class="tab-content">
+					<div class="row row-cols-1 row-cols-sm-2 row-cols-xl-3">
+						<!-- card 1 -->
+						<div class="col mb-4">
+							<div class="card box9">
+								<img src="img/ia.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Bananazos - 2020</h5>
+									<p class="card-text">Sitio web que permite analizar los sentimientos que una persona percibe al momento de ver un video utilizando tecnologías cloud.</p>
+									<p class="card-text text-muted">Tecnologias Usadas: Azure, Python, Django, Materialize</p>
+									<p class="card-text text-muted">En colaboración con: roher1727</p>
+								</div>
+								<div class="box-content">
+									<a href="https://github.com/BackpropagatedPoets/Bananazos" target="_blank">Ver proyecto</a>
+								</div>
+							</div>
+						</div>
+						<!-- card 2 -->
+						<div class="col mb-4">
+							<div class="card box9">
+								<img src="img/legoisland.jpeg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Alameda Lego - 2020 </h5>
+									<p class="card-text">Creación de un mundo tridimensional de legos donde se puede ver una isla y ciertas animaciones dentro de ellas.</p>
+									<p class="card-text text-muted">Tecnologías Usadas: C++, OpenGL</p>
+									<p class="card-text text-muted">En colaboración con:  e-muf</p>
+								</div>
+								<div class="box-content">
+									<a href="https://github.com/patoba/alameda_lego" target="_blank">Ver proyecto</a>
+								</div>
+							</div>
+						</div>
+						<!--  card 3 -->
+						<div class="col mb-4">
+							<div class="card box9">
+								<img src="img/java3.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Chat Multihilos - 2018</h5>
+									<p class="card-text">Creación de un servidor y un cliente. El servidor permite que los clientes envíen mensajes y archivos entre los distintos clientes.</p>
+									<p class="card-text text-muted">Tecnologias Usadas: Java</p>
+								</div>
+								<div class="box-content">
+									<a href="https://github.com/patoba/Chat-Multihilos" target="_blank">Ver proyecto</a>
+								</div>
+							</div>
+						</div>
+						<!-- card 4 -->
+						<div class="col mb-4">
+							<div class="card box9">
+								<div class="inventario">
+									<!-- <img src="img/shop.jpeg" class="card-img-top" alt="..."> -->
+								</div>
+								<div class="card-body">
+									<h5 class="card-title">Control de Inventario - 2019 </h5>
+									<p class="card-text">CRUD sobre un inventario de una tienda de abarrotes hecho en java </p>
+									<p class="card-text text-muted">Tecnologías Usadas: Java, MySQL</p>
+									<p class="card-text text-muted">En colaboración con:  angellox, Marisol-Loperena, AngelOropeza</p>
+								</div>
+								<div class="box-content">
+									<a href="https://github.com/patoba/Control-de-Inventario" target="_blank">Ver proyecto</a>
+								</div>
+							</div>
+						</div>
+						<!-- card 5 -->
+						<div class="col mb-4">
+							<div class="card box9">
+								<img src="img/farmacia.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Farmacia Huffman - 2017 </h5>
+									<p class="card-text">Página web que simula una farmacia donde se pueden seleccionar productos, simulando un carrito de compras.</p>
+									<p class="card-text text-muted">Tecnologías Usadas:  Python, Django, Materialize</p>
+									<p class="card-text text-muted">En colaboración con:  ivyflammenwald, Alpercon</p>
+								</div>
+								<div class="box-content pt-3">
+									<a href="https://github.com/patoba/Farmacia-Huffman" target="_blank">Ver proyecto</a>
+								</div>
+							</div>
+						</div>
+						<!-- card 6 -->
+						<!-- <div class="col mb-4">
+							<div class="card box9">
+								<img src="img/graphr.jpeg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Curso de R - 2019</h5>
+									<p class="card-text">Tutorial de R que comprende desde los aspectos básicos de la programación, conceptos como variables, ciclos, funciones, operadores hasta distribuciones y graficaciones en el lenguaje R</p>
+									<p class="card-text text-muted">Idioma: Español</p>
+									<p class="card-text text-muted">En colaboración con: e-muf, GockLdk</p>
+								</div>
+								<div class="box-content">
+									<a href="https://github.com/patoba/CursoR">Ver proyecto</a>
+								</div>
+							</div>
+						</div> -->
+						<!-- card 7 -->
+						<!-- <div class="col mb-4">
+							<div class="card box9">
+								<img src="img/data.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Modulos Cientificos - 2019 </h5>
+									<p class="card-text">Tutorial sobre los principales modulos enfocados a ciencia de datos (numpy, pandas, matplotlib).</p>
+									<p class="card-text text-muted">Idioma: Español</p>
+									<p class="card-text text-muted">En colaboración con:  roher1727</p>
+								</div>
+								<div class="box-content">
+									<a href="https://github.com/patoba/Modulos-Cientificos-Python">Ver proyecto</a>
+								</div>
+							</div>
+						</div> -->
+						<!-- card 8 -->
+						<!-- <div class="col mb-4">
+							<div class="card box9">
+								<img src="img/codejava.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Curso de Java - 2018</h5>
+									<p class="card-text">Tutorial donde se explica las bases de la programación orientada a objetos usando java, así como el uso de hilos, colecciones, y manejo de flujos.</p>
+									<p class="card-text text-muted">Idioma: Español</p>
+									<p class="card-text text-muted">En colaboración con: roher1727, GodieSillasca</p>
+								</div>
+								<div class="box-content">
+									<a href="https://github.com/patoba/CursoJava">Ver proyecto</a>
+								</div>
+							</div>
+						</div> -->
+					</div>
+				</section>
+				<!-- Tab extra -->
+				<section id="content3" class="tab-content">
+					<!-- Fila 1 -->
+					<div class="row row-cols-1 row-cols-sm-2 row-cols-xl-3">
+						<!-- card 1 -->
+						<div class="col mb-4">
+							<div class="card box9">
+								<img src="img/graphr.jpeg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Curso de R - 2019</h5>
+									<p class="card-text">Tutorial de R que comprende desde los aspectos básicos de la programación, conceptos como variables, ciclos, funciones, operadores hasta distribuciones y graficaciones en el lenguaje R</p>
+									<p class="card-text text-muted">Idioma: Español</p>
+									<p class="card-text text-muted">En colaboración con: e-muf, GockLdk</p>
+								</div>
+								<div class="box-content">
+									<a href="https://github.com/patoba/CursoR">Ver proyecto</a>
+								</div>
+							</div>
+						</div>
+						<!-- card 2 -->
+						<div class="col mb-4">
+							<div class="card box9">
+								<img src="img/data.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Modulos Cientificos - 2019 </h5>
+									<p class="card-text">Tutorial sobre los principales modulos enfocados a ciencia de datos (numpy, pandas, matplotlib).</p>
+									<p class="card-text text-muted">Idioma: Español</p>
+									<p class="card-text text-muted">En colaboración con:  roher1727</p>
+								</div>
+								<div class="box-content">
+									<a href="https://github.com/patoba/Modulos-Cientificos-Python">Ver proyecto</a>
+								</div>
+							</div>
+						</div>
+						<!-- card 3 -->
+						<div class="col mb-4">
+							<div class="card box9">
+								<img src="img/codejava.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Curso de Java - 2018</h5>
+									<p class="card-text">Tutorial donde se explica las bases de la programación orientada a objetos usando java, así como el uso de hilos, colecciones, y manejo de flujos.</p>
+									<p class="card-text text-muted">Idioma: Español</p>
+									<p class="card-text text-muted">En colaboración con: roher1727, GodieSillasca</p>
+								</div>
+								<div class="box-content">
+									<a href="https://github.com/patoba/CursoJava">Ver proyecto</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+			</div>
+		</div>
+	</main>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</html>
